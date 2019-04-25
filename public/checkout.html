@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ti Thanal Ecommerce</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/loader.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-polyfills/0.1.42/polyfill.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-database.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyD9-Wv3ebAmAHawnAOf56VvjTjTTja91XE",
+      authDomain: "ti-thanal.firebaseapp.com",
+      databaseURL: "https://ti-thanal.firebaseio.com",
+      projectId: "ti-thanal",
+      storageBucket: "ti-thanal.appspot.com",
+      messagingSenderId: "17423095020"
+    };
+    firebase.initializeApp(config);
+  </script>
+</head>
+
+<body>
+  <div class="overlay" onclick="stopEvent(event)"></div>
+  <div class="spinner-wrapper"> <svg class="spinner" width="65px" height="65px" viewBox="0 0 66 66"
+      xmlns="http://www.w3.org/2000/svg">
+      <circle class="path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+    </svg></div>
+  <div class="navbar-fixed">
+    <nav class="thanal-nav">
+      <div class="nav-wrapper dark">
+        <a href="/" class="mx-18 left"><i class="material-icons">keyboard_backspace</i></a>
+      </div>
+    </nav>
+  </div>
+  <div class="not-empty">
+    <ul class="collection" data-placeholder="cart-items">
+      <li class="collection-item avatar">
+        <img src="assets/img/sample-1.jpg" alt="" class="circle">
+        <span class="title">Test</span>
+        <p>200</p>
+        <p>Quantity : 10</p>
+        <div class="secondary-content">
+          
+          <a href="#!"><i class="material-icons">add</i></a>
+          <a href="#!"><i class="material-icons">remove</i></a>
+        </div>
+
+      </li>
+    </ul>
+    <p class="center-align">Total Amount : <span class="bold" data-placeholder="amount"></span></p>
+    <div class="row m-0">
+      <form class="col s12">
+        <div class="row m-0">
+          <div class="input-field col s6">
+            <i class="material-icons prefix">account_circle</i>
+            <input onchange="validate(event,'name')" id="name" type="text" class="validate">
+            <label for="name">Name</label>
+          </div>
+          <div class="input-field col s6">
+            <i class="material-icons prefix">phone</i>
+            <input onchange="validate(event,'mobile')" id="mobile" type="tel" class="validate">
+            <label for="mobile">10 digit mobile</label>
+          </div>
+        </div>
+        <div class="row m-0">
+          <p>
+            <label>
+              <input id="accept" onchange="validate(event,'check')" type="checkbox" class="filled-in" />
+              <span>I acknowledge that these items are sold non-profit to help the students at Snehanilayam Special
+                School and agree to pay the amount in full upon receiving the same. I have also validated my number and
+                allow the TI Thanal volunteers to call me for sharing the details of delivery.</span>
+            </label>
+          </p>
+        </div>
+      </form>
+    </div>
+    <a onclick="orderItems()" class="waves-effect center-align waves-light btn pos-x-center disabled order">
+      Order<i class="material-icons right">send</i>
+    </a>
+  </div>
+  <div class="empty">
+    <p>Uh-oh! Your cart is empty. <a href="/"> Add something </a></p>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="assets/js/min/utils.js"></script>
+  <script src="assets/js/min/checkout.js"></script>
+
+</body>
+
+</html>

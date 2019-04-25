@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ti Thanal Ecommerce</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/loader.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-polyfills/0.1.42/polyfill.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-database.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyD9-Wv3ebAmAHawnAOf56VvjTjTTja91XE",
+      authDomain: "ti-thanal.firebaseapp.com",
+      databaseURL: "https://ti-thanal.firebaseio.com",
+      projectId: "ti-thanal",
+      storageBucket: "ti-thanal.appspot.com",
+      messagingSenderId: "17423095020"
+    };
+    firebase.initializeApp(config);
+  </script>
+</head>
+
+<body>
+  <div class="overlay" onclick="stopEvent(event)"></div>
+  <div class="spinner-wrapper"> <svg class="spinner" width="65px" height="65px" viewBox="0 0 66 66"
+      xmlns="http://www.w3.org/2000/svg">
+      <circle class="path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+    </svg></div>
+  <div class="navbar-fixed">
+    <nav class="thanal-nav">
+      <div class="nav-wrapper">
+        <a href="/" class="brand-logo center"><img src="assets/img/thanal_logo.jpg" alt="_logo"></a>
+      </div>
+    </nav>
+  </div>
+    <ul class="collection" data-placeholder="ordered-items">
+      
+    </ul>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="assets/js/min/utils.js"></script>
+  <script src="assets/js/min/orders.js"></script>
+
+</body>
+
+</html>

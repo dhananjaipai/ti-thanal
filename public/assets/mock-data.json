@@ -1,0 +1,203 @@
+{
+  "data": [{
+      "id": "1",
+      "name": "Greeting Card",
+      "category": "Cards",
+      "price": 60,
+      "src": "cards.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Wall hanging Sun",
+      "category": "Decors",
+      "price": 550,
+      "src": "wall_sun.jpg"
+    },
+    {
+      "id": "2_1",
+      "name": "Wall hanging Blocks",
+      "category": "Decors",
+      "price": 500,
+      "src": "wall_blocks.jpg"
+    },
+    {
+      "id": "2_2",
+      "name": "Wall hanging Fruits",
+      "category": "Decors",
+      "price": 550,
+      "src": "wall_fruits.jpg"
+    },
+    {
+      "id": "2_3",
+      "name": "Wall Caterpillar",
+      "category": "Decors",
+      "price": 600,
+      "src": "wall_alphabets_1.jpg"
+    },
+    {
+      "id": "2_3b",
+      "name": "Wall Caterpillar 1",
+      "category": "Decors",
+      "price": 400,
+      "src": "wall_caterpillar_1.jpg"
+    }, {
+      "id": "2_3a",
+      "name": "Wall Caterpillar 2",
+      "category": "Decors",
+      "price": 400,
+      "src": "wall_caterpillar_2.jpg"
+    },
+    {
+      "id": "2_4",
+      "name": "Wall Apple",
+      "category": "Decors",
+      "price": 600,
+      "src": "wall_apple.jpg"
+    },
+    {
+      "id": "2_5",
+      "name": "Wall Tortoise",
+      "category": "Decors",
+      "price": 300,
+      "src": "wall_tortoise_1.jpg"
+    },
+    {
+      "id": "2_6",
+      "name": "Wall Tortoise large",
+      "category": "Decors",
+      "price": 300,
+      "src": "wall_tortoise_2.jpg"
+    },
+    {
+      "id": "2_7",
+      "name": "Wall Duck",
+      "category": "Decors",
+      "price": 300,
+      "src": "wall_duck.jpg"
+    },
+    {
+      "id": "2_8",
+      "name": "Wall Joker",
+      "category": "Decors",
+      "price": 350,
+      "src": "wall_joker.jpg"
+    },
+    {
+      "id": "a10",
+      "name": "Alphabet Kit Large",
+      "category": "Decors",
+      "price": 500,
+      "src": "alphabets_large.jpg"
+    },
+
+    {
+      "id": "a11",
+      "name": "Alphabet Kit Small",
+      "category": "Decors",
+      "price": 350,
+      "src": "alphabets_small.jpg"
+    }, {
+      "id": "4",
+      "name": "Phenoyl",
+      "category": "Miscellaneous",
+      "price": 90,
+      "src": "phenoyl.jpg"
+    }, {
+      "id": "5",
+      "name": "DishWash",
+      "category": "Miscellaneous",
+      "price": 90,
+      "src": "dish_wash.jpg"
+    }, {
+      "id": "6",
+      "name": "Cloth Bag 1",
+      "category": "Bags",
+      "price": 100,
+      "src": "bag2.jpg"
+    }, {
+      "id": "6c",
+      "name": "Cloth Bag 3",
+      "category": "Bags",
+      "price": 100,
+      "src": "bag1.jpg"
+    }, {
+      "id": "6b",
+      "name": "Cloth Bag 2",
+      "category": "Bags",
+      "price": 60,
+      "src": "bag3.jpg"
+    }, {
+      "id": "7",
+      "name": "Pen holder_1",
+      "category": "Pen Holder",
+      "price": 180,
+      "src": "holder1.jpg"
+    }, {
+      "id": "8",
+      "name": "Pen holder_2",
+      "category": "Pen Holder",
+      "price": 180,
+      "src": "holder2.jpg"
+    }, {
+      "id": "9",
+      "name": "Pen holder_3",
+      "category": "Pen Holder",
+      "price": 180,
+      "src": "holder3.jpg"
+    }, {
+      "id": "10d",
+      "name": "Pen holder_4",
+      "category": "Pen Holder",
+      "price": 180,
+      "src": "holder4.jpg"
+    }, {
+      "id": "10",
+      "name": "Pen holder_5",
+      "category": "Pen Holder",
+      "price": 250,
+      "src": "holder5.jpg"
+    }, {
+      "id": "10x",
+      "name": "Pen holder 6",
+      "category": "Pen Holder",
+      "price": 250,
+      "src": "holder_6.jpg"
+    }, {
+      "id": "10y",
+      "name": "Pen holder_7",
+      "category": "Pen Holder",
+      "price": 200,
+      "src": "holder7.jpg"
+    }, {
+      "id": "11",
+      "name": "Hanger 1",
+      "category": "Cloth Hanger",
+      "price": 350,
+      "src": "hanger1.jpg"
+    }, {
+      "id": "13",
+      "name": "Hanger 2",
+      "category": "Cloth Hanger",
+      "price": 280,
+      "src": "hanger3.jpg"
+    }, {
+      "id": "vase1",
+      "name": "Vase 1",
+      "category": "Flower Vase",
+      "price": 350,
+      "src": "vase_1.jpg"
+    }, {
+      "id": "vase2",
+      "name": "Vase 2",
+      "category": "Flower Vase",
+      "price": 350,
+      "src": "vase_2.jpg"
+    }, {
+      "id": "vase3",
+      "name": "Vase 3",
+      "category": "Flower Vase",
+      "price": 350,
+      "src": "vase_3.jpg"
+    }
+  ]
+}
